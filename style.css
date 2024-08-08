@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+    font: inherit;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #06061a;
+    color: #f3f3f3;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+img,
+imagem,
+vídeo,
+tela,
+svg {
+    display: bloco;
+    max-width: 100%;
+}
+
+

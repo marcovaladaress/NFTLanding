@@ -1,0 +1,56 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    padding-block: 1.23rem;
+    align-items: center;
+    padding-top: 2rem;
+    margin: auto;
+  
+}
+
+.header--logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.nav--ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+   
+}
+
+.nav--a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header--button{
+    background: none;
+    border: none;
+
+}
+
+.header--btn-icon{
+    display: none;
+}
+
+
+
+@media (width < 768px) {
+
+    .header--nav{
+        display: none;
+    }
+
+    .header--btn-icon {
+        display: block;
+    }
+}

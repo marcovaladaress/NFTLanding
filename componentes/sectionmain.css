@@ -1,0 +1,114 @@
+
+
+.bg {
+    background: linear-gradient(150deg, rgba(172, 60, 246,0.3), #06061a);
+}
+
+.section--main{
+    display: flex;
+    padding-inline: 1.25rem;
+    padding-top: 6rem;
+    overflow: hidden;
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+
+
+.section-left{
+
+    flex: 1
+}
+
+
+.section-rigth {
+    flex: 1;
+}
+
+.section--up--text{
+    color: #2eb1a3;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section--title{
+    font-size: 2.70rem;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    margin-top: 0.75rem;
+    max-width: 50ch;
+    
+}
+
+
+
+.section--description{
+    font-size: 0.9rem;
+    opacity: 0.6;
+    font-weight: 300;
+    line-height: calc(1em + 0.5rem);
+    margin-block: 1.5rem;
+    max-width: 50ch;
+}
+
+.section-button{
+    color: inherit;
+    border: none;
+    font-size: 1rem;
+    background:linear-gradient(to right,#e8546b, #ac3cf6);
+    padding: 0.5em 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+/* Section Direita */ 
+
+.section-rigth{
+    margin: auto;
+}
+.section--img{
+    transform: rotate(15deg);
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+
+
+@media (width < 1024px){
+    .section--main{
+        flex-direction: column;
+        gap: 2rem;
+    
+    }
+
+    .section--img{
+        width: 97%;
+        max-width: 500px;
+        
+      
+    }
+
+   
+  
+}
+
+
+@media (width < 475px){
+
+    .section--title{
+        font-size: 2.4rem;
+        
+        
+    }
+    .section--main{
+        flex-direction: column;
+        gap: 2rem;
+        flex-wrap: wrap;
+    
+    }
+
+}

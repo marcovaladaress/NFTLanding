@@ -1,0 +1,65 @@
+.features{
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+.features--wrapper {
+    background-color: #131325;
+    padding: 4rem 2rem 2rem 2rem;
+    border-radius: 29px;
+    margin-top: 4rem;
+
+
+
+}
+
+.features--text {
+    text-align: center;
+    
+}
+
+
+.features--description{
+    max-width: 60ch;
+    margin-inline: auto;
+}
+
+
+
+.feature--card{
+    background-color: #25283d;
+    padding: 4rem 2rem 2rem 2rem;
+    border-radius: 12px;  
+    flex: 1; 
+    min-width: 300px;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.features--cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    row-gap: 4rem;
+}
+
+
+                   
+.features--img{
+    width: 5.7rem;
+    position: absolute;
+    top: -3.75rem;
+    left: 2rem;
+}
+
+.features--card--title{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+.features--card--description{
+    color: rgba(255,255,255,0.6);
+    font-weight: 300;
+}
